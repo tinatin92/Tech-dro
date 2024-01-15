@@ -5,6 +5,12 @@
   .title-60 {
     font-size: 54px;
   }
+  .title-48 {
+    font-size: 44px;
+  }
+  .title-46{
+    font-size: 42px;
+  }
   .header-title-24,
   .header-slider__text .title-60 {
     margin: 0 0 22px 0;
@@ -26,9 +32,7 @@
   .counting-banner__num {
     margin: 0 0 22px 0;
   }
-  .title-48 {
-    font-size: 44px;
-  }
+
   .about-us__main-page-text {
     width: 60%;
     height: 248px;
@@ -74,8 +78,193 @@
     padding: 80px 40px 81px 60px;
    
 }
+.big-banner:last-of-type {
+
+  background-position: 490px 0px;
+}
 }
 @media (max-width: 1400px) {
+  .header-slider__text {
+    margin-top: 250px;
+}
+  .title-60{
+    font-size: 50px;
+    line-height: 64px;
+  }
+  .title-48 {
+    font-size: 42px;
+} 
+.title-30{
+  font-size: 26px;
+}
+  .margin-120 {
+    margin: 80px auto;
+}
+  .header-title{
+    padding: 0 40px 0 0 ;
+  }
+  .header-slider__text .title-60{
+    max-height: 140px;
+  }
+  .header-title h4,
+  .header-links a,
+  .header-links span{
+    font-size: 18px;
+  }
+  .header-title::before{
+    left: -250px;
+  }
+  .menu a{
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .contact{
+    padding: 8px 20px;
+  }
+  .header-img {
+    width: 160px;
+    height: 50px;
+  } 
+  header.header-scroll .header-second {
+    margin: 0 0 8px 0;
+}
+.header-title-24{
+  font-size: 20px;
+  margin: 0 0 18px 0;
+}
+.header-slider .slick-arrow.slick-next, .header-slider .slick-arrow.slick-prev {
+  border: 3px solid var(--black);
+  width: 66px;
+  height: 66px;
+}
+.header-slider .slick-arrow.slick-next{
+  left: 145px;
+}
+.header-slider .slick-arrow.slick-prev{
+  left: 235px;
+}
+.counting-banner__text, .counting-banner__num span{
+  font-size: 36px;
+}
+.counting-banner__text, .counting-banner__num span{
+  font-size: 32px;
+}
+.counting-banner__num {
+  margin: 0 0 14px 0;
+}
+.about-us__main-page-text{
+  font-size: 18px;
+  line-height: 32px;
+ 
+}
+.about-us__main-page img, .about-us__page img {
+    top: 38px;
+    height: 267px;
+}
+.partners-slide img{
+  max-width: 90%;
+  max-height: 90%;
+}
+.learn-more1 h1{
+  line-height: 72px;
+  margin-bottom: 45px;
+}
+.learn-more .video{
+  height: 400px;
+}
+.news-date{
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.news-title{
+  font-size: 24px;
+}
+.news-text{
+  font-size: 18px;
+  height: 56px;
+}
+.news-slider-text{
+  font-size: 18px;
+  max-height: 146px;
+}
+.news-slider .slick-arrow.slick-next{
+  left: 170px;
+}
+.news-slider .slick-arrow.slick-prev{
+  left: 230px;
+}
+
+.projects-mainpage h2{
+  margin-bottom: 130px;
+}
+.project-slider__text {
+  padding: 50px 38px 50px 38px;
+}
+.project-title{
+  font-size: 28px;
+}
+.project-text{
+  font-size: 18px;
+  line-height: 32px;
+  height: 184px;
+}
+.project-image__slider{
+  height: 500px;
+}
+.big-banner {
+  height: 340px;
+  padding: 74px 50px 0 50px;
+  margin: 50px 0 0px 0;
+}
+.title-46{
+  font-size: 38px;
+  line-height: 52px;
+  height: 100px;
+}
+.big-banner:last-of-type {
+  background-position: 407px 0px;
+}
+.big-banner a{
+  padding: 35px 35px 24px 35px;
+}
+.big-banner a img{
+  width: 40px;
+}
+.big-banner a:hover img {
+  transform: translate(5px, -5px);
+}
+
+.big-banner:first-of-type {
+    background-image: url(../assets/images/Mask\ group\ \(11\).png);
+    background-repeat: no-repeat;
+    background-position: 42px 208px;
+}
+.footer-text{
+  font-size: 18px;
+  line-height: 32px;
+}
+.light{
+  font-size: 20px;
+}
+.semibold{
+  font-size: 20px;
+}
+.fotter-first{
+  padding: 0 0 60px 0;
+}
+.fotter-second{
+  font-size: 14px;
+}
+.footer-right .header-links {
+  margin: 0 0 50px 0;
+}
+.footer-subscribe button{
+  font-size: 16px;
+}
+.news-section {
+  margin: 0px 0 90px 0;
+}
+
 }
 @media (max-width: 1200px) {
 }

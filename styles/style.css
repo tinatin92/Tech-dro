@@ -1931,3 +1931,7 @@ header.header-scroll .contact {
     .blog-addcomment textarea:focus{
       outline: none;
     }
+    .faq-list .faq {
+      margin-top: 60px;
+      padding:0 100px 0 0;
+  }
