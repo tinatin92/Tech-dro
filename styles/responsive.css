@@ -84,6 +84,9 @@
 }
 }
 @media (max-width: 1400px) {
+  .header-slide {
+    height: 700px;
+  }
   .header-slider__text {
     margin-top: 250px;
 }
@@ -267,6 +270,119 @@
 
 }
 @media (max-width: 1200px) {
+  .header-slider__text {
+    margin-top: 200px;
+}
+.header-slide {
+  height: 600px;
+}
+.header-slider__text .title-60{
+  font-size: 38px;
+  line-height: 56px;
+  max-width: 400px;
+  max-height: 108px;
+}
+.title-60{
+  font-size: 38px;
+}
+.title-48 {
+  font-size: 36px;
+}
+
+.about-us__main-page h2, .about-us__page h2 {
+  margin: 0 0 16px 0;
+  
+}
+.about-us__main-page img, .about-us__page img{
+  height: 220px;
+}
+.margin-120 {
+  margin: 66px auto;
+}
+.learn-more {
+  padding: 40px 0;
+}
+.learn-more .video {
+  height: 320px;
+}
+.learn-more1 h1{
+  line-height: 58px;
+}
+.button{
+  font-size: 18px;
+  padding: 8px 28px;
+}
+.news-slider__content{
+  width: 100%;
+}
+.news .icon-Group-9{
+  font-size: 46px;
+}
+.news-list__news-slider {
+  padding: 0 40px 0 30px;
+}
+.title-46 {
+  font-size: 32px;
+  line-height: 46px;
+  height: 84px;
+}
+.big-banner{
+  height: 300px;
+}
+.big-banner:last-of-type {
+  background-position: 337px 0px;
+  background-position-x: 337px;
+  background-position-y: 0px;
+}
+.big-banner:first-of-type {
+  background-image: url(../assets/images/Mask\ group\ \(11\).png);
+  background-repeat: no-repeat;
+  background-position: 17px 157px;
+}
+
+.fotter-first {
+  padding: 0px 0 45px 0;
+  margin-top: 80px;
+}
+.light, .semibold{
+  font-size: 18px;
+}
+.footer-info {
+  margin: 28px 0 0 0;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 30px;
+  height: 55px;
+}
+.project-text__slider{
+    width: 450px;
+}
+.project-slider__text{
+  width: 100%;
+  padding: 40px;
+}
+.project-title {
+  font-size: 24px;
+}
+.priject-date {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+.project-image__slider{
+  height: 440px;
+}
+.projects-mainpage h2 {
+  margin-bottom: 80px;
+}
+.projects-mainpage.margin-120{
+  margin: 80px auto 120px auto;
+}
+.project-slider__arrows{
+  bottom: -75px;
+}
+
+
 }
 @media (max-width: 992px) {
 }
