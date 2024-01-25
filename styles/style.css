@@ -1932,3 +1932,101 @@ header.header-scroll .contact {
       margin-top: 60px;
       padding:0 100px 0 0;
   }
+  .burger-menuicon{
+    width: 50px;
+    padding:10px;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .burger-menuicon span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--blue);
+    margin: 4px 0;
+  }
+
+  .burger-menuicon {
+    display: none;
+  }
+  .burger-menu{
+   display: none;
+   position: fixed;
+   top: 0;
+    right: 0;
+    width: 400px;
+    height: initial;
+    padding: 40px 15px;
+    background-color: #fff;
+  }
+  .burger-menu.open{
+    display: block;
+  }
+  .burger-nav{
+    list-style: none;
+    padding: 10px 0 40px 0;
+  }
+  .burger-nav .search input{
+    width: 100%;
+  }
+  .burger-nav__button{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    
+  }
+  .burger-link{
+    font-size: 16px;
+    font-weight: 700;
+
+  }
+  .menu-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .burger-row{
+    padding: 24px 12px 24px 0;
+    border-bottom: 2px solid var(--gray);
+  }
+  .burger-menu__last{
+    margin-top: 30px;
+  }
+  .burger-menu-lang{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+  }
+  .burger-menu__last .button{
+    padding: 8px 28px !important;
+  }
+  .burgmenu-sub li{
+    list-style: none !important;
+  }
+  .burgmenu-sub {
+    display: none;
+    
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "BPG Nino Mtavruli";
+  }
+  .burgmenu-sub div{
+     padding: 10px 20px;
+     
+  }
+  .burger-open.open .burgmenu-sub{
+    display: block;
+  }
+.space-betw{
+  justify-content: space-between;
+}
+.burger-logo{
+  width: 160px;
+  height: 50px;
+}

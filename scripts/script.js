@@ -4,6 +4,14 @@ $(document).ready(function () {
     slidesToScroll: 1,
 /*     autoplay:true, */
   /*   appendArrows: $('.header-slider-arrows') */
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+      },
+    },
+  ],
   })
   $(".partners-slider").slick({
     slidesToShow: 4,
@@ -26,6 +34,7 @@ $(document).ready(function () {
           slidesToScroll: 1,
         },
       },
+     
     ],
   });
 
@@ -35,8 +44,15 @@ $(document).ready(function () {
     /* fade: true,
     cssEase: "linear", */
     appendArrows: $('.project-slider__arrows'),
-
     asNavFor: ".project-image__slider",
+    responsive: [
+     { 
+      breakpoint: 768,
+       settings: {
+        arrows: false,
+       }
+    }
+    ]
   });
   $(".project-image__slider").slick({
     slidesToShow: 1,
@@ -49,6 +65,14 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    responsive: [
+      { 
+       breakpoint: 768,
+        settings: {
+         arrows: false,
+        }
+     }
+     ]
    
    })
 
@@ -117,7 +141,39 @@ $('#registration-open').click(function(e){
 })
 
 
+$(".burgerarrov").click(function () {
+  $(this).parent().toggleClass("burgeropen"),
+    $(this).parent().toggleClass("rotate");
+});
 
+const openModal = $(".team-slider__text");
+  const closeModal = $(".modal-button");
+  const modalBackground = $(".modal-background");
+  const teamModal = $(".team-modal");
+
+  openModal.click(function () {
+    $(this).parent().toggleClass("open");
+  });
+  closeModal.click(function () {
+    teamModal.css("display", "none");
+    window.location.reload();
+  });
+  modalBackground.click(function () {
+    teamModal.css("display", "none");
+    window.location.reload();
+  });
+
+  $(".burger-menuicon").click(function () {
+    $(".burger-menu").addClass("open");
+  });
+
+  $(".menu-button").click(function () {
+    $(".burger-menu").removeClass("open");
+  });
+
+  $(".burger-nav__button").click(function () {
+    $(this).closest(".burger-open").toggleClass("open");
+  });
 
 
 
