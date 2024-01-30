@@ -239,7 +239,10 @@ a {
 .row2 {
   display: flex;
 }
-
+.font-22{
+  font-size: 22px;
+  line-height: 38px;
+}
 .button {
   padding: 13px 37px;
   display: inline-block;
@@ -1133,6 +1136,9 @@ header.header-scroll .contact {
 .faq-box {
   margin: 0 0 50px 0;
 }
+.faq-text{
+  padding: 0 20px 0 0;
+}
 .faq-question {
   position: relative;
   padding: 0 0 0 60px;
@@ -1163,8 +1169,15 @@ header.header-scroll .contact {
   height: initial;
   padding: 30px 0 5px 0;
 }
+.faq-icon{
+  width: 20px;
+  height: 20px;
+  position: relative;
+
+}
 
 .faq-box .faq-icon span {
+  position: absolute;
   display: inline-block;
   border-radius: 3px;
   background-color: var(--grey);
@@ -1174,12 +1187,14 @@ header.header-scroll .contact {
 .faq-icon span:first-of-type {
   width: 20px;
   height: 2px;
-  transform: translate(-30px, -8px);
+  top: 50%;
+  transform: translate(0, -50%);
 }
 .faq-icon span:last-of-type {
   height: 20px;
   width: 2px;
-  transform: translate(-48px, 1px);
+  left: 50%;
+  transform: translate(-50%, 0px);
 }
 .al-cent {
   align-items: center;
@@ -1195,8 +1210,11 @@ header.header-scroll .contact {
   margin-top: 40px;
 }
 .news-page .news-list {
-  padding: 0 70px 0 0;
   margin-bottom: 80px;
+}
+.news-page .news-list .news{
+  width: 50%;
+  padding: 0 20px 0 0;
 }
 
 .pagination .row {
@@ -1404,11 +1422,12 @@ header.header-scroll .contact {
 .list-page__text {
   margin: 50px auto 60px auto;
 }
-.list-page__text div {
-  font-style: 22px;
+.list-text{
+  font-style: 202px;
   line-height: 38px;
   margin: 0px 0 25px 0;
 }
+
 .partner-list__box {
   padding: 40px 80px 40px 40px;
   width: 32.3%;
@@ -1428,11 +1447,20 @@ header.header-scroll .contact {
   margin-bottom: 80px;
 }
 .project-detail-img {
-  width: 30%;
-  padding: 80px 60px;
+  width: 440px;
+  height: 240px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
   background-color: var(--grey-light);
 }
+.project-detail-img img{
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
 .project-detail-text {
+  width: 60%;
   font-size: 22px;
   line-height: 38px;
   padding: 0 0 0 10px;
