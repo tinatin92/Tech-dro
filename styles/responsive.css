@@ -81,6 +81,15 @@
 .big-banner:last-of-type {
   background-position: 490px 0px;
 }
+.search-page {
+  margin: 122px auto 0 auto;
+}
+.search-result h2{
+  font-size: 36px;
+}
+.search-result {
+  margin-bottom: 50px;
+}
 }
 @media (max-width: 1400px) {
   .header-slide {
@@ -309,6 +318,33 @@
 .photo-video__gallery {
   margin-top: 30px;
 }
+.search-text{
+  font-size: 20px;
+  line-height: 36px;
+  height: 170px;
+}
+.result {
+  padding: 70px 12px 70px 12px;
+ 
+}
+.blog-box{
+  width: 31.5%;
+}
+.blog-text h4{
+  font-size: 22px;
+  line-height: 36px;
+}
+.blog-text__text {
+  font-size: 20px;
+  line-height: 34px;
+  height: 97px;
+}
+.blog-date{
+  font-size: 18px;
+}
+.contact-address-img img{
+  width: 420px;
+}
 }
 @media (max-width: 1200px) {
 
@@ -510,6 +546,48 @@ margin: 30px 0;
   font-size: 20px;
   line-height: 36px;
 }
+.search-oage__search input::placeholder{
+  font-size: 30px;
+}
+.search-page {
+  margin: 80px auto 0 auto;
+}
+.search-result h2 {
+  font-size: 32px;
+  line-height: 52px;
+}
+.search-text{
+  padding-right: 100px;
+}
+.comment-text{
+  font-size: 18px;
+}
+.add-comment {
+  padding: 0 0px 0 0;
+  margin: 50px 0 50px 0;
+}
+.comment-text {
+  padding: 0;
+}
+.review{
+  margin: 40px 0;
+}
+.blog-author {
+  margin: 50px 0 50px 0;
+  position: relative;
+}
+.pag-link {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin: 0 6px;
+}
+.pagination .pre {
+  margin-right: 0px;
+}
+.pagination .next {
+  margin-left: 0px;
+}
 }
 @media (max-width: 992px) {
 
@@ -680,6 +758,28 @@ margin: 30px 0;
   width: 30%;
   height: 160px;
 
+}
+.blog-box{
+  width: 100%;
+}
+.blog-list{
+  row-gap: 50px;
+}
+.contact-page .row{
+  flex-wrap: wrap;
+}
+.contact-page .width-50{
+  width: 100%;
+}
+.contact-address-img img{
+  display: none;
+}
+.contact-inputs{
+  margin-top: 30px;
+}
+.faq-list .faq {
+  margin-top: 40px;
+  padding: 0 0px 0 0;
 }
 }
 
@@ -900,6 +1000,54 @@ header.header-scroll .header-img,
   height: 260px;
 
 }
+.search-oage__search {
+  width: 100%;
+}
+.search-result h2 {
+  font-size: 26px;
+  line-height: 40px;
+}
+.search-text {
+  font-size: 18px;
+  line-height: 32px;
+  height: 152px;
+  padding-right: 0;
+}
+.search-result .search-blue {
+  font-size: 18px;
+}
+.blog-author__name{
+  margin-bottom: 15px;
+}
+
+.blog-addcomment .row{
+  flex-wrap: wrap;
+}
+.blog-addcomment .width-50{
+  width: 100%;
+}
+.comment {
+  font-size: 18px;
+  margin: 0 20px 0 10px;
+}
+.comment-stars{
+  font-size: 32px;
+}
+.coment-bt span{
+  font-size: 18px;
+}
+.comment-stars span {
+  display: block;
+  margin: 0 1px;
+}
+.detail-page__date {
+
+  font-size: 18px;
+}
+.contact-page{
+  padding: 0 12px 20px 12px;
+}
+
 }
 @media (max-width: 576px) {
 }
