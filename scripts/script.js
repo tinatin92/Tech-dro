@@ -129,7 +129,7 @@ $(window).scroll(function () {
 });
 
 $('.faq-box').click(function(){
-  $(this).toggleClass("open");
+  $(this).parent().toggleClass("open");
 })
 
 Fancybox.bind('[data-fancybox="page-gallery"]', {});

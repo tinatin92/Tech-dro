@@ -1167,9 +1167,9 @@ header.header-scroll .contact {
   overflow: hidden;
   transition-duration: 0.3s;
 }
-.faq-box.open .faq-answer {
+.faq-parent.open .faq-answer {
   height: initial;
-  padding: 30px 0 5px 0;
+  padding: 30px 0 30px 0;
 }
 .faq-icon{
  width: 20px;
@@ -1179,9 +1179,12 @@ header.header-scroll .contact {
   background-repeat: no-repeat;
 
 }
-.faq-box.open .faq-icon{
+.faq-parent.open .faq-icon{
   background-image: url('../assets/images/Vector  m(11).svg');
   background-repeat: no-repeat;
+}
+.faq-parent.open .faq-box{
+  margin: 0 0 20px 0;
 }
 
 .faq-box .faq-icon span {
@@ -1210,7 +1213,7 @@ header.header-scroll .contact {
 .sp-bet {
   justify-content: space-between;
 }
-.faq-box.open .faq-icon span:last-of-type {
+.faq-parent.open .faq-icon span:last-of-type {
   transform: translate(-48px, 1px) rotate(-90deg);
   background-color: var(--blue);
 }
