@@ -1794,8 +1794,12 @@ header.header-scroll .contact {
     padding: 50px 0 70px 0;
     border-bottom: 2px solid var(--grey-light);
   }
+ 
   .registration-form input[type="text"],
-  .registration-form input[type="email"]{
+  .registration-form input[type="email"],
+  .registration-form input[type="number"],
+  .registration-form textarea
+  {
     width: 60%;
     height: 60px;
     font-size: 20px;
@@ -1804,7 +1808,12 @@ header.header-scroll .contact {
     padding: 16px 20px;
     margin: 20px 0 30px 0;
   }
-  .registration-form input:focus{
+  .registration-form textarea{
+    height: 130px;
+    resize: none;
+  }
+  .registration-form input:focus,
+  .registration-form textarea{
     outline: none;
   }
   .checkboxs input[type="checkbox"]{

@@ -130,7 +130,7 @@
                 </a>
             </div>
         </div>
-       <h2 class="container marginb-50 title-48">Multimedia</h2>
+        <h2 class="container marginb-50 title-48">Multimedia</h2>
         <div class="detail-page__gallery">
             <div class="row gap-20 container">
                 <a data-fancybox="page-gallery" href="assets/images/Big_Buck_Bunny_1080_10s_2MB.mp4">
@@ -182,8 +182,21 @@
                             <label for="subject">Subject</label>
                             <input type="text">
                         </div>
+                        <div>     <!-- ეს ტექსტ არეა ჩავამატე ინფუთების ფილდში -->
+                            <label for="text">text area</label>
+                            <textarea name="text" id="text"></textarea> 
+                        </div>
                     </div>
 
+                   <!--  ეს ტექსტარეა გავაკეთე როოგრც დამოუკიდებელი ელემენტი რომელსახც
+                   კონსტრუქტორში სადაც უნდა დაამატებენ, არ ვიცი საიროა თუ არა მარა იყოს მაინც -->
+
+                    <div class="textarea marginb-30">            
+                        <div> 
+                            <label for="name">text area</label>
+                            <textarea name="" id=""></textarea>
+                        </div>
+                    </div>
 
 
                     <div class="checkboxs marginb-30">
@@ -241,6 +254,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     <button class="button">Registration</button>
 
